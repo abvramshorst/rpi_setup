@@ -14,7 +14,7 @@ Mount the flashed card to expose the /boot and /rootfs folder
 To initialize wifi and ssh access, run the setup_pi.sh script:
 
 ```bash
-sh setup_pi.sh --rpibootfolder /media/<USER>/boot --ssid <WIFINAME> --psk <WIFIPASS> --enablessh
+sh setup_pi.sh --rpibootfolder /<PATH_TO_SD_CARD>/boot --ssid <WIFINAME> --psk <WIFIPASS> --enablessh
 ```
 - adds ssh connection option
 - adds wifi connection

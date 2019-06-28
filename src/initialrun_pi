@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo 'Updating OS\n'
+sudo apt-get --yes --force-yes update
+sudo apt-get --yes --force-yes upgrade
